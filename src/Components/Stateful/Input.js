@@ -4,16 +4,14 @@ export default class Input extends Component {
 	constructor(props) {
 		super(props);
 
-		this.state = {
-
-        };
+		this.state = {};
 	}
 
 	render() {
 		return (
-            <div>
-                <p>Input Bar</p>
-            </div>
-        )
+			<div>
+				<p>Input Bar</p>
+			</div>
+		);
 	}
 }

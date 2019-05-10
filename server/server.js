@@ -11,5 +11,3 @@ app.delete('/api/concerts/:id', controller.delete);
 
 const PORT = 3333;
 app.listen(PORT, () => console.log(`Now listening on ${PORT}`));
-
-
